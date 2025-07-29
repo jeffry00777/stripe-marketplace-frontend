@@ -1,7 +1,7 @@
 // src/oktaConfig.js
 export const oktaConfig = {
-  clientId: process.env.CLIENT_ID,
-  issuer: process.env.ISSUER_URL,
+  clientId: "0oat7m5qecol7ATfb697",
+  issuer: "https://trial-7472583.okta.com/oauth2/default",
   redirectUri: window.location.origin + "/login/callback",
   scopes: ["openid", "profile", "email"],
   pkce: true,
