@@ -1,0 +1,10 @@
+.home-container {
+  background-image: url("../../assets/all-you-need.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
